@@ -1,0 +1,14 @@
+* Shell script for compilation of videos on reddit and adding effects with ffmpeg
+[[file:assets/first.gif]]
+** First start by giving the script execution privileges
+#+BEGIN_SRC sh
+chmod +x tik-comp.sh
+#+END_SRC
+** Install all the dependencies
+#+BEGIN_SRC sh
+sudo pacman -S yt-dlp ffmpeg curl jq base-devel
+#+END_SRC
+** Execute
+#+BEGIN_SRC sh
+./tik-comp.sh
+#+END_SRC
